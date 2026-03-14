@@ -8,7 +8,7 @@ function App() {
   
   return (
     <>
-   <Suspense fallback={<p>waiting for data....</p>}>
+   <Suspense fallback={<p>waiting for me....</p>}>
     <Countries Countryfetch={Countryfetch}></Countries>
     
    </Suspense>
